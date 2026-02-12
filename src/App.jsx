@@ -169,6 +169,11 @@ function App() {
           <h1 className="text-2xl sm:text-3xl font-bold text-rose-800 leading-tight">
             {QUESTIONS[questionIndex]}
           </h1>
+          {isFinalQuestion && (
+            <p className="text-xl sm:text-2xl font-semibold text-rose-700">
+              & come to the cottage
+            </p>
+          )}
         </div>
 
         {isFinalQuestion ? (
